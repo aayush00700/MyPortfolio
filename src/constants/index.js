@@ -1,29 +1,3 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
 
 export const navLinks = [
   {
@@ -43,66 +17,66 @@ export const navLinks = [
 const services = [
   {
     title: "Python Developer",
-    icon: web,
+    icon: import.meta.env.BASE_URL + "web.png",
   },
   {
     title: "System Developer",
-    icon: mobile,
+    icon: import.meta.env.BASE_URL + "mobile.png",
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: import.meta.env.BASE_URL + "backend.png",
   },
   {
     title: "Web Developer",
-    icon: creator,
+    icon: import.meta.env.BASE_URL + "creator.png",
   },
 ];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: import.meta.env.BASE_URL + "html.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: import.meta.env.BASE_URL + "css.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: import.meta.env.BASE_URL + "javascript.png",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: import.meta.env.BASE_URL + "tailwind.png",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: import.meta.env.BASE_URL + "reactjs.png",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: import.meta.env.BASE_URL + "nodejs.png",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: import.meta.env.BASE_URL + "mongodb.png",
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: import.meta.env.BASE_URL + "threejs.png",
   },
   {
     name: "git",
-    icon: git,
+    icon: import.meta.env.BASE_URL + "git.png",
   },
   {
     name: "docker",
-    icon: docker,
+    icon: import.meta.env.BASE_URL + "docker.png",
   },
   {
     name: "figma",
-    icon: figma,
+    icon: import.meta.env.BASE_URL + "figma.png",
   }
 ];
 
@@ -110,7 +84,7 @@ const experiences = [
   {
     title: "Web App Developer",
     company_name: "IPSA",
-    icon: meta,
+    icon: import.meta.env.BASE_URL + "meta.png",
     iconBg: "#383E56",
     date: "Feb 2023 - June 2024",
     points: [
@@ -152,7 +126,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: import.meta.env.BASE_URL + "tripguide.png",
     source_code_link: "https://github.com/",
   },
 ];

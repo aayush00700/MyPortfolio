@@ -1,15 +1,11 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import emailIcon from '../assets/email.png';
-import linkedinIcon from '../assets/linkedIN.png';
-import githubIcon from '../assets/github.png'; 
-import instagramIcon from '../assets/instagram.png';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -42,7 +38,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "me@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -91,7 +87,7 @@ const Contact = () => {
               cursor: "pointer" 
             }}>
               <img 
-                src={emailIcon} 
+                src={import.meta.env.BASE_URL + "email.png" } 
                 alt="email icon" 
                 style={{ 
                   width: "20px", 
@@ -116,7 +112,7 @@ const Contact = () => {
               cursor: "pointer" 
             }}>
               <img 
-                src={linkedinIcon} 
+                src={import.meta.env.BASE_URL + "linkedIN.png"}
                 alt="LinkedIn icon" 
                 style={{ 
                   width: "20px", 
@@ -141,7 +137,7 @@ const Contact = () => {
               cursor: "pointer" 
             }}>
               <img 
-                src={githubIcon} 
+                src={import.meta.env.BASE_URL + "github.png"} 
                 alt="GitHub icon" 
                 style={{ 
                   width: "20px", 
@@ -166,7 +162,7 @@ const Contact = () => {
               cursor: "pointer" 
             }}>
               <img 
-                src={instagramIcon} 
+                src={import.meta.env.BASE_URL + "instagram.png"} 
                 alt="Instagram icon" 
                 style={{ 
                   width: "20px", 
