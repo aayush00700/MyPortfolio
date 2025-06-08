@@ -47,10 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Python Development and
-        JavaScript,and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and make great projects with good projects , scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I'm a skilled full-stack developer with expertise in
+        Python, JavaScript, and modern web development frameworks
+        such as React and Node.js. I have a strong passion for building
+        scalable, user-friendly applications that solve real-world
+         problems. With a quick learning ability and a creative mindset,
+          I enjoy turning innovative ideas into functional and impactful
+           solutions. Let's collaborate and bring your vision to life 
+           through clean, efficient, and modern code.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
