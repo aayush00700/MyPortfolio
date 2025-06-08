@@ -98,6 +98,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.websitre_link{
+  margin-top: 7px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 .pink-text-gradient {
   background: #ec008c; /* fallback for old browsers */
   background: -webkit-linear-gradient(

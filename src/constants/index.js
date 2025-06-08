@@ -159,6 +159,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "tripguide.png",
     source_code_link: "https://github.com/",
+    website_link: "",
   },
   {
     name: "Nexus.ai",
@@ -196,6 +197,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "NexusAI.png",
     source_code_link: "https://github.com/aayush00700/Nexus.ai",
+    website_link:"https://aayush00700.github.io/Nexus.ai/",
   },
   {
     name: "Zap",
@@ -221,6 +223,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "Zap.png",
     source_code_link: "https://github.com/aayush00700/Zap",
+    website_link: 'https://aayush00700.github.io/Zap'
   },
   {
     name: "Amazon Clone",
@@ -250,6 +253,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "Amazon.png",
     source_code_link: "https://github.com/aayush00700/Amazon-clone",
+    website_link:'https://aayush00700.github.io/Amazon-clone/'
   },
   {
     name: "YoutubeUI",
@@ -271,6 +275,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "YoutbeUI.png",
     source_code_link: "https://github.com/YoutubeUI",
+    website_link: 'https://aayush00700.github.io/YoutubeUI/',
   },
   {
     name: "Pilot",
@@ -292,6 +297,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "Pilot.png",
     source_code_link: "https://github.com/aayush00700/Pilot",
+    website_link: 'https://aayush00700.github.io/Pilot'
   },
   {
     name: "Aura",
@@ -313,6 +319,7 @@ const projects = [
     ],
     image: import.meta.env.BASE_URL + "Aura.png",
     source_code_link: "https://github.com/aayush00700/Aura",
+    website_link: 'https://aayush00700.github.io/Aura'
   },
 ];
 

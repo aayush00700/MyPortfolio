@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
@@ -14,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  website_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -49,6 +49,29 @@ const ProjectCard = ({
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <a
+            href={website_link}
+            target="_blank"
+            className="fon"
+            style={{
+              color: 'deepskyblue',
+              textDecoration: 'none',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              textShadow: '0 0 5px rgba(0,191,255,0.8)',
+              transition: 'all 0.3s ease',
+            }}
+            onMouseEnter={e => {
+              e.target.style.color = 'white';
+              e.target.style.textShadow = '0 0 10px deepskyblue, 0 0 20px deepskyblue';
+            }}
+            onMouseLeave={e => {
+              e.target.style.color = 'deepskyblue';
+              e.target.style.textShadow = '0 0 5px rgba(0,191,255,0.8)';
+            }}
+          >
+            Visit_website
+          </a>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
